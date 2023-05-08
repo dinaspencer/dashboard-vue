@@ -6,7 +6,7 @@ import TeacherPage from './pages/TeacherPage.vue'
 import LoginPage from './pages/LoginPage.vue'
 import LandingPage from './pages/LandingPage.vue'
 import AdminPage from './pages/AdminPage.vue'
-import SignupPage from './pages/SignupPage.vue'
+import SignupPage from './pages/SignUpPage.vue'
 
 
 
