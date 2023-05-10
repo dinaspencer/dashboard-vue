@@ -7,6 +7,7 @@ import LoginPage from './pages/LoginPage.vue'
 import LandingPage from './pages/LandingPage.vue'
 import AdminPage from './pages/AdminPage.vue'
 import SignupPage from './pages/SignUpPage.vue'
+import SchedulePage from './pages/SchedulePage.vue'
 
 
 
@@ -34,6 +35,10 @@ createApp(App)
     }, {
         path: '/signup',
         component: SignupPage,
+    },
+    {
+        path: '/schedule',
+        component: SchedulePage,
     }
 ]
 }))
