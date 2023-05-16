@@ -6,8 +6,9 @@ import TeacherPage from './pages/TeacherPage.vue'
 import LoginPage from './pages/LoginPage.vue'
 import LandingPage from './pages/LandingPage.vue'
 import AdminPage from './pages/AdminPage.vue'
-import SignupPage from './pages/SignUpPage.vue'
+import SignUpPage from './pages/SignUpPage.vue'
 import SchedulePage from './pages/SchedulePage.vue'
+import GoToClassPage from './pages/GoToClassPage.vue'
 
 
 
@@ -34,11 +35,15 @@ createApp(App)
         component: AdminPage,
     }, {
         path: '/signup',
-        component: SignupPage,
+        component: SignUpPage,
     },
     {
         path: '/schedule',
         component: SchedulePage,
+    }, 
+    {
+        path: '/class',
+        component: GoToClassPage,
     }
 ]
 }))

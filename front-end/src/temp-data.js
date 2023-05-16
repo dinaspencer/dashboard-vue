@@ -45,14 +45,27 @@ export const teachers = [
 },
 ];
 
-export const upcomingClasses = [
+
+ //buttons: 1 hour / 30 min
+    //if 1 hour, classEndTime = classStartTime + 60 min
+
+export const lessons = [
 {
     id: '001',
-    studentName: '',
-    teacherName: '',
-    classDate: '',
-    classTime: '',
-    //getDate?
-
+    studentName: 'Rosa Gomez',
+    teacherName: 'Patience Osborne',
+    classDate: '16 May 2023',
+    classStartTime: '16:00',
+    classEndTime: '17:00',
+    classNotes: 'We talked about phrasal verbs.',
+},
+{
+    id: '002',
+    studentName: 'Rosa Gomez',
+    teacherName: 'Patience Osborne',
+    classDate: '18 May 2023',
+    classStartTime: '16:00',
+    classEndTime: '17:00',
+    classNotes: 'We talked about phrasal verbs.',
 }
 ]
