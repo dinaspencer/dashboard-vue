@@ -15,6 +15,7 @@
         </div>
         <div class="class-upcoming-list">
             <h3>Upcoming Classes</h3>
+            <FutureLessonList />
             
         </div>
         <div class="class-history-list">
@@ -28,11 +29,13 @@
 <script>
 
 import PastLessonList from '../components/PastLessonList.vue';
+import FutureLessonList from '../components/FutureLessonList.vue';
 import { students } from '../temp-data';
     export default {
         name: 'StudentPage',
         components: {
             PastLessonList,
+            FutureLessonList,
         },
         data() {
             return {
