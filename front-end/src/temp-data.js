@@ -9,7 +9,16 @@ export const students = [
     numberHalfHourClasses: 40,
     levelEnglish: 'B2',
     emailAddress: 'ima.s@logical.com',
-    upcomingLessons: [],
+    upcomingLessons: [
+        {
+            id: '444',
+            teacherName: 'Patience Osborne',
+            classDate: '24 May 2023',
+            classStartTime: '16:00',
+            classEndTime: '17:00',
+            classNotes: '',
+        }
+    ],
     pastLessons: [],
     
 },
@@ -24,7 +33,7 @@ export const students = [
     upcomingLessons: [],
     pastLessons: [
         {
-            id: '001',
+            id: '654',
             teacherName: 'Patience Osborne',
             classDate: '16 May 2023',
             classStartTime: '16:00',
@@ -32,7 +41,7 @@ export const students = [
             classNotes: 'We talked about phrasal verbs.',
         },
         {
-            id: '002',
+            id: '655',
             teacherName: 'Patience Osborne',
             classDate: '18 May 2023',
             classStartTime: '16:00',
@@ -50,8 +59,26 @@ export const students = [
     numberOneHourClasses: 40,
     levelEnglish: 'B1+',
     emailAddress: 'dinasfotos@gmail.com',
-    upcomingLessons: [],
-    pastLessons: [],
+    upcomingLessons: [
+        {
+            id: '787',
+            teacherName: 'Patience Osborne',
+            classDate: '22 May 2023',
+            classStartTime: '16:00',
+            classEndTime: '17:00',
+            classNotes: '',
+        }
+    ],
+    pastLessons: [
+        {
+            id: '754',
+            teacherName: 'Dina Teacher',
+            classDate: '16 May 2023',
+            classStartTime: '16:00',
+            classEndTime: '17:00',
+            classNotes: 'We talked about phrasal verbs.',
+        }
+    ],
 },
 
 ];

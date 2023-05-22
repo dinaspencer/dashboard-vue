@@ -15,7 +15,7 @@
         </div>
         <div class="class-upcoming-list">
             <h3>Upcoming Classes</h3>
-            <FutureLessonList />
+            <FutureLessonList  />
             
         </div>
         <div class="class-history-list">

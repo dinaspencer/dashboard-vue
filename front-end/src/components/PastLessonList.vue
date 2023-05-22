@@ -5,7 +5,7 @@
         <p class="class-date">{{ pastLesson.classDate }}</p>
         <p class="class-time">{{ pastLesson.classStartTime }} - {{ pastLesson.classEndTime }}</p>
         <button class="lesson-open">See Details</button>
-        <button class="lesson-cancel">Request to cancel</button>
+        <button class="lesson-feedback">Give Feedback</button>
     </div>
 </div>
 </template>
