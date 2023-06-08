@@ -41,6 +41,8 @@ import { students } from '../temp-data';
             return {
                 student: students.find(student => student.id === this.$route.params.studentId)
             }
+        },
+      
         }
-    }
+    
 </script>
